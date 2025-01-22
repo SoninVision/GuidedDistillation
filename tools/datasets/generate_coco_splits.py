@@ -16,7 +16,7 @@ if __name__ == '__main__':
     )
 
     parser.add_argument('--json_dir_file', type=str, required=True)
-    parser.add_argument('-percentages', nargs="+", type=float) 
+    parser.add_argument('--percentages', nargs="+", type=float) 
 
     args = parser.parse_args()
 
